@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1F242D;
+
+}
+.ez{
+    width: 500px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 400px;
+    padding-top: 40px;
+    border-radius: 20px;
+    background-color: #323946;
+
+
+}
+.ez input{
+    width: 343px;
+    height: 55px;
+    margin-left: 17.15px;
+    padding-left: 30px;
+    border-radius: 8px;
+    border: none;
+    color: azure;
+}
+.bth{
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    width: 179px;
+    height: 53px;
+    position: relative;
+    left: 20.50px;
+    border-radius: 7px;
+    border: none;
+}
+
+

@@ -1,0 +1,208 @@
+/* Общие стили */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+  background-color: #4caf50;
+  padding: 10px 0;
+}
+
+.navbar ul {
+  list-style: none;
+  text-align: center;
+}
+
+.navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar a:hover {
+  color: #ffeb3b;
+}
+
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+/* Стили для секции Hero */
+.hero {
+  text-align: center;
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.hero h1 {
+  font-size: 36px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hero p {
+  font-size: 20px;
+}
+/* Стили для галереи яблок */
+.apple-gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.apple-box {
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.apple-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.apple-image {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.apple-info {
+  padding: 20px;
+}
+
+.apple-info h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.apple-info p {
+  font-size: 16px;
+}
+.foter{
+  
+  color: #e4e4e4;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Dropdown стили */
+.dropdown-section {
+  text-align: center;
+  margin-top: 50px;
+}
+.ez img{
+
+    width: 70px;
+    height: 70px;
+
+}
+
+.ez{
+    width: 380.27px;
+  height: 369px;
+  border-radius: 20px;
+  background-color: #e4e4e4;
+}
+.ez1 img{
+  width: 70px;
+  height: 70px;
+}
+.ez1:hover{
+  background-color: #2adf1a;
+}
+.ez1{
+  width: 380.27px;
+  height: 369px;
+  border-radius: 20px;
+  background-color: #e4e4e4;
+}
+.ez:hover{
+  background-color: #2adf1a;
+}
+.dropdown {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  transition: border 0.3s;
+}
+.nv2{
+  max-width: 1440px;
+  height: 80px;
+  text-align: center;
+  background-color: #323946;
+}
+.h12{
+  text-align: center;
+}
+.h1{
+  color: #ffffff;
+  background-color: #4caf50;
+  text-align: center;
+}
+.dropdown:hover {
+  border: 1px solid #4caf50;
+}
+
+/* Респонсивность */
+@media (max-width: 768px) {
+  .apple-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .navbar li {
+    margin-bottom: 10px;
+  }
+  .ez p{
+    width: 225.82px;
+    font-size: 14.1px;
+    font-weight: 400;
+    line-height: 21.15px;
+    text-align: center;
+    margin: 0 20px;
+}
+.foter{
+  width: 500px;
+  height: 1900px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.ez1 p{
+    width: 225.82px;
+    font-size: 14.1px;
+    font-weight: 400;
+    line-height: 21.15px;
+    margin: 0 20px;
+    text-align: center;
+}
+}
